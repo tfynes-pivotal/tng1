@@ -1,0 +1,23 @@
+id: cbac9b81-000c-46a6-b0bb-f23c32d432e8
+timestamp: 2023-11-27T16:35:11.087Z
+source: TAP-GUI
+username: tfynes-pivotal
+accelerator:
+  name: tanzu-java-web-app
+fragments:
+  - name: build-wrapper-gradle
+  - name: build-wrapper-maven
+  - name: devcontainer
+  - name: java-version
+  - name: tap-workload
+options:
+  bsGitBranch: main
+  projectName: tng1
+  buildTool: gradle
+  springBootVersion: 3.1
+  nativeBuild: true
+  javaVersion: 17
+  includeBuildToolWrapper: true
+  includeDevContainer: false
+  ide: intellij
+  bsGitRepository: github.com?owner=tfynes-pivotal&repo=tng1
